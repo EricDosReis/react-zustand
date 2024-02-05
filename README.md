@@ -17,4 +17,4 @@ npm run server
 npm run dev
 ```
 
-You can check out [here](https://github.com/EricDosReis/react-redux) a mirror project that uses Redux instead of Zustand.
+You can check out [here](https://github.com/EricDosReis/react-redux) a mirror project that uses Redux Toolkit instead of Zustand.
