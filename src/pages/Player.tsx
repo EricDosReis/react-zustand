@@ -21,9 +21,7 @@ export function Player() {
     load();
   }, []);
 
-  useEffect(() => {
-    document.title = `Watching: ${currentLesson?.title}`;
-  }, [currentLesson]);
+  document.title = `Watching: ${currentLesson?.title}`;
 
   return (
     <div className="h-screen bg-zinc-950 text-zinc-50 flex justify-center items-center">
